@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    
     background-color: #0d1117;
     color: #c9d1d9;
 }
@@ -71,20 +70,18 @@ body::before {
             outline: none;
             color: #00FF00; 
             cursor: pointer;
-          
             position: relative;
-          text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
             z-index: 0;
             border-radius: 12px;
             background-color: #333;
-          
             font-family: "Courier New", Courier, monospace;
             text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
             width: 200px;
-            height: 70px;
+            height: 50px;
             text-transform: uppercase;
             font-size: 17px;
         }
@@ -153,7 +150,6 @@ body::before {
           padding: 20px 40px;
             justify-content: center;
             align-items: center;
-            
             background-color: transparent;
             color: lime; 
             font-family: "Courier New", Courier, monospace; 
@@ -214,6 +210,12 @@ body::before {
     margin: 4px auto;
 }
 
+.downloadBox2 span {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 50px;
+    color: white;
+}
 .warningMessage2 {
     text-align: center;
     font-size: 1.2em;
@@ -238,3 +240,29 @@ body::before {
     color: darkviolet;      
     text-decoration: underline;  
 }
+
+
+.download2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0f97a6;
+    margin: 4px auto;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.download2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.spaced {
+            margin-bottom: 40px;
+        }
